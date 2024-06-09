@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: black;
+    color: white;
+}
+
+header{
+    color: rgb(241, 241, 241);
+    padding: 16px 0;
+    background-color: rgb(201, 33, 33);
+}
+
+header h1{
+    font-weight: 500;
+    font-style: bold;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    font-weight: 300;
+    font-style: bold;
+}
+
+header img{
+    height: 50px;
+}
+
+header .container,
+section .container{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1280px;
+    width : 100%;
+    margin : 0 auto;
+}
+
+section .container{
+    align-items: center;
+}
+section .container h3{
+    font-size: 30px;
+}
+.icons img{
+    height: 30px;
+    width: 30px;
+    padding: 16px;
+}
+
+.icons li, ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.icons ul{
+    margin: 16px;
+}
+
+section{
+    padding: 24px 0;
+}
+
+#silkSong{
+    background-color: rgb(175, 25, 25);
+}
+
+.imgMain img{
+    height: 400px;
+    border-radius: 10px;
+}
+
+h2, h3, p{
+    text-align: center;
+    margin: 16px;
+}
+
+h2{
+    margin: 20px;
+    font-size: 50px;
+}
+
+#news .container{
+    display: flex;
+    justify-content: center;
+}
+#news h2{
+    font-size: 30px;
+}
+#news h4{
+    text-align: center;
+}
+
+form input,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 16px;
+}
+
+form button{
+    width: 160px;
+    height: 30px;
+    margin-left: 80px;
+    background-color: rgb(226, 37, 37);
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: rgb(201, 33, 33);
+}
